@@ -1,0 +1,180 @@
+<html><head><style type="text/css" id="dcoder_stylesheet">body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#company-name {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}</style></head><body><div class="container">
+    <h1>CyberGuardSolutions - Secure Password Generator</h1>
+    <button id="generate-btn">Generate Password</button>
+    <input type="text" id="password" readonly>
+    <p id="company-name">Powered by CyberGuardSolutions - Mthobisi Jokozela</p>
+</div><script type="text/javascript" id="dcoder_script">// JavaScript for Password Generation
+function generatePassword() {
+    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+=<>?";
+    let passwordLength = 16; // You can adjust the length of the password
+    let password = "";
+    
+    for (let i = 0; i < passwordLength; i++) {
+        let randomIndex = Math.floor(Math.random() * characters.length);
+        password += characters[randomIndex];
+    }
+    
+    // Output the password to the input field
+    document.getElementById('password').value = password;
+}
+
+// Event listener to generate password when the button is clicked
+document.getElementById('generate-btn').addEventListener('click', generatePassword);</script></body></html>ckground-color: #fff;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}</style></head> 
+ <body> <!-- Header Section --> 
+  <header> 
+   <div class="logo"> 
+    <h1>CyberGuard Solutions</h1> 
+   </div> 
+   <nav> 
+    <ul> 
+     <li><a href="#home">Home</a></li> 
+     <li><a href="#services">Services</a></li> 
+     <li><a href="#about">About Us</a></li> 
+     <li><a href="#contact">Contact</a></li> 
+    </ul> 
+   </nav> 
+  </header> <!-- Hero Section --> 
+  <section id="home" class="hero"> 
+   <h2>Protecting Your Digital World with CyberGuard Solutions</h2> 
+   <p>Expert Cybersecurity Services for Your Home and Business</p> <a href="#contact" class="cta-btn">Get Started</a> 
+  </section> <!-- About Section --> 
+  <section id="about"> 
+   <h2>About CyberGuard Solutions</h2> 
+   <p>CyberGuard Solutions is dedicated to securing your digital life with advanced cybersecurity solutions. Whether it's helping with your tech setup, securing your home network, or offering support for your business, we’ve got you covered.</p> 
+  </section> <!-- Services Section --> 
+  <section id="services"> 
+   <h2>Our Services</h2> 
+   <div class="service"> 
+    <h3>Tech Setup Support</h3> 
+    <p>Get your tech set up right the first time with expert guidance.</p> 
+   </div> 
+   <div class="service"> 
+    <h3>TV Box App Downloads</h3> 
+    <p>Seamless setup and secure installation of TV box apps.</p> 
+   </div> 
+   <div class="service"> 
+    <h3>PC/Computer Upgrades</h3> 
+    <p>Boost your system’s performance with tailored upgrades.</p> 
+   </div> 
+   <div class="service"> 
+    <h3>Cybersecurity Consulting</h3> 
+    <p>Receive expert advice and protection against digital threats.</p> 
+   </div> 
+  </section> <!-- Testimonial Section --> 
+  <section id="testimonials"> 
+   <h2>What Our Clients Say</h2> 
+   <blockquote> 
+    <p>"CyberGuard Solutions provided us with excellent security consulting. Their advice was invaluable!"</p> 
+    <footer>
+      - Mthobisi Jokozela, Business Owner 
+    </footer> 
+   </blockquote> 
+  </section> <!-- Contact Section --> 
+  <section id="contact"> 
+   <h2>Get In Touch</h2> 
+   <form action="#" method="post"> 
+    <input type="text" name="name" placeholder="Your Name" required> 
+    <input type="email" name="email" placeholder="Your Email" required> <textarea name="message" placeholder="Your Message" required></textarea> <button type="submit">Send Message</button> 
+   </form> 
+   <p>Or contact us directly at:</p> 
+   <p>Email: <a href="mailto:contactjaydenjokozela@gmail.com@">contact@cyberguardsolutions.com</a></p> 
+   <p>Phone:27 63 187 5466</p> 
+  </section> <!-- Footer Section --> 
+  <footer> 
+   <ul> 
+    <li><a href="#">Privacy Policy</a></li> 
+    <li><a href="#">Terms of Service</a></li> 
+    <li><a href="#">Facebook</a></li> 
+    <li><a href="#">Twitter</a></li> 
+    <li><a href="#">LinkedIn</a></li> 
+   </ul> 
+   <p>© 2025 CyberGuard Solutions. All rights reserved.</p> 
+  </footer> 
+ 
+</body></html>
